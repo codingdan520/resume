@@ -113,9 +113,8 @@ export default {
 #preview {
   min-height:520px;
   color: #fff;
-  background-image: url(~@/assets/backgroundpic.png);
-  background-repeat: no-repeat;
-  // background-size: cover;
+  background: url(../../../static/backgroundpic.png) no-repeat;
+  background-size: cover;
   .layouttop {
     height: 200px;
     padding: 48px;
